@@ -1,14 +1,9 @@
 package com.example.homework31;
 
 import com.example.homework31.exception.DivByZeroException;
-import com.example.homework31.model.Person;
 import com.example.homework31.service.CalculatorService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class CalculatorServiceTest {
     private final CalculatorService calculatorService = new CalculatorService();
